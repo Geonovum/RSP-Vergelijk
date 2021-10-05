@@ -12,6 +12,19 @@ volgende versies worden vergeleken
 | Eigen Logius versie	     | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/logius/respec-logius.js" async></script>	| 6 maanden oud |
 | Logius Geonovum versie      | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/logius/respec-geonovum.js" async></script> |	6 maanden oud |
 
+Links:
+https://geonovum.github.io/RSP-Vergelijk/GNM-Eigen
+
+https://geonovum.github.io/RSP-Vergelijk/Logius-Eigen
+https://geonovum.github.io/RSP-Vergelijk/Logius-GNM
+
+https://geonovum.github.io/RSP-Vergelijk/W3C-Eigen
+https://geonovum.github.io/RSP-Vergelijk/W3C-GNM
+
+
+
+
+
 
 
 
