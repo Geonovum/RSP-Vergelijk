@@ -10,7 +10,7 @@ var respecConfig = {
      // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
      // TG: Versie teruggetrokken
      // BASIS, GN-BASIS: 'geen status'
-     specStatus: "WV",
+     specStatus: "GN-WV",
    
      // SpecType currently supported
      // NO: "Norm"
@@ -22,7 +22,7 @@ var respecConfig = {
      // AL: "Algemeen"
      // BD: "Beheerdocumentatie"
      // BP: "Best Practice"
-     specType: "HR",
+     specType: "IM",
    
      // subtitle will be shown below title, can be omitted 
      // subtitle: "Hier komt een subtitle",
@@ -41,19 +41,19 @@ var respecConfig = {
      // currently, the 'this version' url will only point to the [publication server] if specStatus is "DEF"
      // otherwise it will refer to the the github.io environment   
      // (if this parameter does not exist the publisDate will be used.)
-     publishVersion: "2.8",
+     //-- publishVersion: "2.8",
    
      // The previous version preferably in SEMVER notation
      // for Logius specifications this field is optional: if this parameters exists this value will be used as directory name  
      // (if this parameter does not exist the previousPublisDate will be used, which may lead to an incorrect url .)
-     previousPublishVersion: "1.6.5",
+     //-- previousPublishVersion: "1.6.5",
    
      // The specification's publish domain, which is used to publish the specification
      // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<conf.shortName>/`
-     pubDomain: "dk",
+     pubDomain: "cvgg",
    
      // The specification's "short name", is used in NL_Respec URLs in the following way: `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<conf.shortName>/`
-     shortName: "ebms",
+     shortName: "img",
    
      // Based on the example settings Respec will generate the following links in the header:
      // https://publicatie.centrumvoorstandaarden.nl/dk/ebms/
@@ -76,28 +76,60 @@ var respecConfig = {
    
      // An array of person objects describing the editors of the document
      // this can be simple or more elaborated
-     editors: [{
-       name: "Peter Haasnoot",
-       url: "https://logius.nl/standaarden",
-       company: "Logius",
-     },
-     {
-       name: "Pieter Hering",
-       url: "https://logius.nl/standaarden",
-       company: "Logius",
-     }
-     ],
+     editors: 
+    [
+      {
+        name:       "Gerard Trouborst",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      }, 
+    ],
      // An array of person objects describing the authors of the document
      // this can be simple or more elaborated
-     authors: [{
-       name: "Logius",
-       url: "https://logius.nl/standaarden",
-       mailto: "digikoppeling@logius.nl",
-     }
-     ],
+     authors: 
+    [
+      {
+        name:       "Gerard Trouborst",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      }, 
+      {
+        name:       "Joeri van Es",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      }, 
+      {
+        name:       "Linda van den Brink",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      }, 
+      {
+        name:       "Azarakhsh Rafiee",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      }, 
+      {
+        name:       "Wilko Quak",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      },
+      {
+        name:       "Pieter Bresters",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      },
+      {
+        name:       "Arnoud de Boer",
+        company:    "Geonovum",
+        companyURL: "https://www.geonovum.nl"
+      },
+    ],
      // The github option allows you associate your specification with a repository on GitHub.
-     github: "https://github.com/Logius-standaarden/Template-Repository",
-   
+     //github: "https://github.com/Geonovum/IMG",
+
+       // issueBase: "mailto:img%40geonovum%2E.nl",
+     //issueBase: "https://www.geonovum.nl/geo-standaarden/informatiemodel-geluid?search?text=Helpdesk#helpdesk",
+
      // The URL of your test suite, gets included in the specification's headers.
      // testSuiteURI: "https://portaal.digikoppeling.nl/CV/home.html",
    
@@ -105,7 +137,7 @@ var respecConfig = {
      // highlightVars: true,
    
      // Controls if linked "§" section markers are added to a document
-     addSectionLinks: true,
+     addSectionLinks: false,
    
      // Lints for accessibility issues using axe-core
      a11y: false,
@@ -141,18 +173,18 @@ var respecConfig = {
      // thi scan be configured below
      // if not set, the url's will be generated on the respecConfig.github automatically  
      nl_github: {
-       issueBase: "https://github.com/Logius-standaarden/Template-Repository/issues",
-       revision: "https://github.com/Logius-standaarden/Template-Repository/commits",
-       pullrequests: "https://github.com/Logius-standaarden/Logius-standaarden/Template-Repository/pulls"
+       issueBase: "https://github.com/Geonovum/IMG/issues",
+       revision: "https://github.com/Geonovum/IMG//commits",
+       pullrequests: "https://github.com/Geonovum/IMG//pulls"
      },
    
      // nl_organisationName is used for some company specific values in the header (and Sotd)
      // currently supported: Logius and Geonovum (default)  
-     nl_organisationName: "Logius",
+     nl_organisationName: "Geonovum",
    
      // prefix for the names of company specific css, svg and ico prefixes
      // defaults to "GN-"  
-     nl_organisationPrefix: "LS-",
+     nl_organisationPrefix: "GN-",
    
      // class style can be automatically inserted in generated markdown tables
      // currently defaults to simple, but this may change
@@ -169,12 +201,12 @@ var respecConfig = {
    
      // this url points to the folder where organsation specific css files are stored
      // defaults to https://tools.geostandaarden.nl/respec/style/ if not set
-     nl_organisationStylesURL: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
+     //-- nl_organisationStylesURL: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
      // nl_organisationStylesURL: "http://localhost:8081/respec/style/",
    
      // nl_organisationPublishURL points to organisation specifica publication page, used in header
      // defaults to  https://docs.geostandaarden.nl/"
-     nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
+     //-- nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
    
      // nl_logo refers to company logo
      // defaults to https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg
@@ -347,9 +379,18 @@ var respecConfig = {
          href: "https://www.forumstandaardisatie.nl/open-standaarden/verplicht",
          title: "Lijst Verplichte standaarden",
          publisher: "Forum Standaardisatie",
-       }
-   
-   
+       },
+       "MIM": {
+          href: "https://docs.geostandaarden.nl/MIM",
+          title: "MIM",
+          publisher: "Geonovum",
+       },
+       "ISO19118-2011": {
+          href: "",
+          title: "ISO19118-2011",
+          publisher: "ISO",
+      }
+  
      }
    };
    
