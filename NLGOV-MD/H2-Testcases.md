@@ -2,7 +2,7 @@
 
 Hieronder de testcases  
 
-# Titels 
+## Titels 
 
 Een hoofdstuk titel maak je met één # (met een spatie erachter)
 

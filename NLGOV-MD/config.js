@@ -26,7 +26,7 @@ var respecConfig =
   specType: "HR",                   // HandReiking
   //specType: "WA",                   // Werkafspraak
   //-- format is verplicht! -----------------------------------------------------------
-  format: "markdown",                 // altijd "markdown"
+  //format: "markdown",                 // altijd "markdown"
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"

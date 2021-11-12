@@ -33,10 +33,13 @@ NB: de Geonovum versie is opgegaan in de Logius versie, deze staat in de nlgov m
 
 *Bevindingen*
 
-| Datum      | Publicatie | Bevinding                            | Status        | Issue#      |
-|------------|------------|--------------------------------------|---------------|-------------| 
-| 12-11-2021 | NLGOV-IM   | warning op dfn bij paragraaf teken   | Nieuw         |             |
-| dd-mm-jjjj | nnnn       |                                      | Nieuw         |             |
+| Datum      | Publicatie | Bevinding                            | Status        | Oplossing                                      | Issue#      |
+|------------|------------|--------------------------------------|---------------|------------------------------------------------|-------------| 
+| 12-11-2021 | NLGOV-IM   | warning op dfn bij paragraaf teken   | Nieuw         |                                                |             |
+| 12-11-2021 | NLGOV-MD   | Foute weergave Markdown              | Opgelost      | format="markdown" verwijderen uit in config.js |             |
+
+
+
 
 
 
