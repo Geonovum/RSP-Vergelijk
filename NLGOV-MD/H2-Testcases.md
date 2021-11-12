@@ -1,44 +1,44 @@
 ﻿# Testcases
 
-Hieronder de testcases
+Hieronder de testcases  
 
-# Titels
+# Titels 
 
 Een hoofdstuk titel maak je met één # (met een spatie erachter)
 
 ```
-# Titel-1
+# Titel-1  
 ```
-## Titel-2
+## Titel-2 
 
-Een Paragraaf van niveau 2 maak je met twee ##
+Een Paragraaf van niveau 2 maak je met twee ##  
 ```
-## Titel-2
+## Titel-2  
 ```
 ### Titel-3
 
-Een Paragraaf van niveau 3 maak je met drie ###
+Een Paragraaf van niveau 3 maak je met drie ###  
 
 ```
-### Titel-3
+### Titel-3  
 ```
 #### Titel-4
 
-Een Paragraaf van niveau 4 maak je met vier ####
+Een Paragraaf van niveau 4 maak je met vier ####  
 
 ```
 #### Titel-4
 ```
 ##### Titel-5
 
-Een Paragraaf van niveau 5 maak je met vijf #####
+Een Paragraaf van niveau 5 maak je met vijf #####  
 
 ```
 ##### Titel-5
 ```
 ###### Titel-6
-
-Een Paragraaf van niveau 6 maak je met zes ######
+  
+Een Paragraaf van niveau 6 maak je met zes ######  
 
 ```
 ### Titel-6
