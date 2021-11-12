@@ -3,26 +3,40 @@ Repo om verschillende respec varianten naast elkaar te proberen
 
 volgende versies worden vergeleken
 
-| Versie	                    | Pages	|
-|-----------------------------|---------|
-| Geonovum  Eigen versie      | https://geonovum.github.io/RSP-Vergelijk/GNM-Eigen  |
-| Logius Eigen versie	     | https://geonovum.github.io/RSP-Vergelijk/Logius-Eigen |
-| Logius Geonovum versie      | https://geonovum.github.io/RSP-Vergelijk/Logius-GNM  |  
-| W3C Eigen versie	          | https://geonovum.github.io/RSP-Vergelijk/W3C-Eigen  |
-| W3C Geonovum versie         | https://geonovum.github.io/RSP-Vergelijk/W3C-GNM | 
+| Versie	                    | Pages	                                              | Gebaseerd op         |
+|-----------------------------|-------------------------------------------------------|----------------------|
+| Geonovum  Eigen versie      | https://geonovum.github.io/RSP-Vergelijk/GNM-Eigen    | IM Geluid            |
+| Logius Eigen versie	     | https://geonovum.github.io/RSP-Vergelijk/Logius-Eigen | IM Geluid            |
+| Logius Geonovum versie      | https://geonovum.github.io/RSP-Vergelijk/Logius-GNM   | IM Geluid            |
+| W3C Eigen versie	          | https://geonovum.github.io/RSP-Vergelijk/W3C-Eigen    | IM Geluid            |
+| W3C Geonovum versie         | https://geonovum.github.io/RSP-Vergelijk/W3C-GNM      | IM Geluid            |
+| NLGOV (Logius) versie       | https://geonovum.github.io/RSP-Vergelijk/NLGOV-IM     | IM Geluid            |
+| NLGOV (Logius) versie       | https://geonovum.github.io/RSP-Vergelijk/NLGOV-WP     | Whitepaper           |
 
 
 
 Links naar js libraries
 
-| Versie	               | Link in index.html	| Oud    |
-|------------------------|------------------------|--------|
-| Eigen Geonovum versie  | <script class="remove" src="https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js" async></script>	| 18 maanden oud |
-| Eigen W3C versie	     | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/w3c/respec-w3c.js" async></script>	| 27 dagen oud |
-| W3C-Geonovum versie	| <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/w3c/respec-geonovum.js" async></script>	| 27 dagen oud |
-| Eigen Logius versie	| <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/logius/respec-logius.js" async></script>	| 6 maanden oud |
-| Logius Geonovum versie | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/logius/respec-geonovum.js" async></script> |	6 maanden oud |
+| Versie	                | Link in index.html	 | Leeftijd    |
+|-------------------------|------------------------|-------------|
+| Eigen Geonovum          | <script class="remove" src="https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js" async></script>	        | 18 maanden oud |
+| Eigen W3C 	           | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/w3c/respec-w3c.js" async></script>	        | 27 dagen oud |
+| W3C-Geonovum 	      | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/w3c/respec-geonovum.js" async></script>	   | 27 dagen oud |
+| Eigen Logius            | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/logius/respec-logius.js" async></script>   | 6 maanden oud |
+| Logius Geonovum         | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/logius/respec-geonovum.js" async></script> |	6 maanden oud |
+| NLGOV = Geonovum+Logius | <script class="remove" src="https://tools.geostandaarden.nl/respec/vergelijk/nlgov/respec-logius.js" async></script>    |	0 dagen oud |
 
+NB: de Geonovum versie is opgegaan in de Logius versie, deze staat in de nlgov map.
+
+
+
+
+Bevindingen
+
+| Datum      | Publicatie | Bevinding                            | Status        |
+|------------|------------|--------------------------------------|---------------| 
+| 12-11-2021 | NLGOV-IM   | warning op dfn bij paragraaf teken   | Nieuw         |      
+| dd-mm-jjjj | nnnn       |                                      | Nieuw         |      
 
 
 
