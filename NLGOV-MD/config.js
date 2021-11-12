@@ -33,7 +33,7 @@ var respecConfig =
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   //-- de github repository waar je documentn in staat --------------------------------
-  github: "https://github.com/geonovum/respec/examples/md_example",
+  github: "https://github.com/geonovum/RSP-Vergelijk/",
   editors:
   [
     {
