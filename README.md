@@ -12,6 +12,7 @@ volgende versies worden vergeleken
 | W3C Geonovum versie         | https://geonovum.github.io/RSP-Vergelijk/W3C-GNM      | IM Geluid            |
 | NLGOV (Logius) versie       | https://geonovum.github.io/RSP-Vergelijk/NLGOV-IM     | IM Geluid            |
 | NLGOV (Logius) versie       | https://geonovum.github.io/RSP-Vergelijk/NLGOV-WP     | Whitepaper           |
+| NLGOV (Logius) versie       | https://geonovum.github.io/RSP-Vergelijk/NLGOV-MD     | Markdown Testfile    |
 
 
 
@@ -30,13 +31,12 @@ NB: de Geonovum versie is opgegaan in de Logius versie, deze staat in de nlgov m
 
 
 
+*Bevindingen*
 
-Bevindingen
-
-| Datum      | Publicatie | Bevinding                            | Status        |
-|------------|------------|--------------------------------------|---------------| 
-| 12-11-2021 | NLGOV-IM   | warning op dfn bij paragraaf teken   | Nieuw         |      
-| dd-mm-jjjj | nnnn       |                                      | Nieuw         |      
+| Datum      | Publicatie | Bevinding                            | Status        | Issue#      |
+|------------|------------|--------------------------------------|---------------|-------------| 
+| 12-11-2021 | NLGOV-IM   | warning op dfn bij paragraaf teken   | Nieuw         |             |
+| dd-mm-jjjj | nnnn       |                                      | Nieuw         |             |
 
 
 
