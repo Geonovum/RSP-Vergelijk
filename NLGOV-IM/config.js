@@ -110,6 +110,8 @@ var respecConfig =
   licence: "cc-by-nd",              //-- bronvermelding, geen afgeleide werken (default)
   // licence: "cc0",                //-- Public Domain Dedication
   // licence: "cc-by",              //-- Attribution, met bronvermelding
+
+  addSectionLinks: false,
   
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 

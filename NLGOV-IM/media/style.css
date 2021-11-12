@@ -104,11 +104,17 @@ div#remark
   color: darkblue;
 }
 
-h7{
+h7
+{
     font-weight: bold;
     font-size: 16px;
     padding-bottom: 20px;
     padding-top: 20px;
     vertical-align: middle;
     float: left;
+ }
+
+ anchor
+ {
+  border-color: darkblue;
  }
